@@ -40,14 +40,14 @@
 //    }else if([model isKindOfClass:[HomeBannerModel class]]){
 //
 //    }
-    UIAlertController *alertCtl = [UIAlertController alertControllerWithTitle:@"result" message:@"request success" preferredStyle:UIAlertControllerStyleActionSheet];
-    [self presentViewController:alertCtl animated:YES completion:nil];
+//    UIAlertController *alertCtl = [UIAlertController alertControllerWithTitle:@"result" message:@"request success" preferredStyle:UIAlertControllerStyleActionSheet];
+//    [self presentViewController:alertCtl animated:YES completion:nil];
 }
 
 - (void)onGetDataSourceFail:(NSInteger)errorCode des:(NSString *)des{
 //    [self.homeMainView showErrorView];
-    UIAlertController *alertCtl = [UIAlertController alertControllerWithTitle:@"result" message:@"request fail" preferredStyle:UIAlertControllerStyleActionSheet];
-    [self presentViewController:alertCtl animated:YES completion:nil];
+//    UIAlertController *alertCtl = [UIAlertController alertControllerWithTitle:@"result" message:@"request fail" preferredStyle:UIAlertControllerStyleActionSheet];
+//    [self presentViewController:alertCtl animated:YES completion:nil];
 }
 
 #pragma mark - 🚪public // 公有方法
